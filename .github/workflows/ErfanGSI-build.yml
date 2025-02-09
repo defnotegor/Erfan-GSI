@@ -6,7 +6,7 @@ on:
       ROM_URL:
         description: 'Direct link/直链'
         required: true
-        default: 'https://mirrorbits.lineageos.org/full/sagit/20230302/lineage-20.0-20230302-nightly-sagit-signed.zip'
+        default: 'https://dl.google.com/dl/android/aosp/redfin-tq3a.230805.001-factory-88e4b37b.zip'
       REPACK_NAME:
         description: 'Compressed name/打包名称'
         required: true
@@ -14,7 +14,7 @@ on:
       ROM_TYPE:
         description: 'ROM type/ROM 类型'
         required: true
-        default: 'Generic'
+        default: 'Pixel'
 env:
   TELEGRAM_TO: 1214932938
   TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
